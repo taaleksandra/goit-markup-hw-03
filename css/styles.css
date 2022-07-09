@@ -1,0 +1,205 @@
+:root {
+  --main-color: #212121;
+  --accent-color: #2196f3;
+  --descriptions-color: #757575;
+  --background-dark-color: #2f303a;
+  --background-light-color: #f5f4fa;
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--main-color);
+}
+
+/* header styles */
+
+.site-bar-wrapper {
+  background-color: var(--white-color);
+}
+.logo-first {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+}
+.logo-second {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--black-color);
+}
+.main-navigation {
+  list-style: none;
+}
+.main-navigation a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  vertical-align: top;
+  letter-spacing: 0.5px;
+}
+.main-navigation-contact a {
+  color: var(--descriptions-color);
+}
+.main-navigation a:hover {
+  color: var(--accent-color);
+}
+.main-navigation a:focus {
+  color: var(--accent-color);
+}
+
+/* main-page main styles */
+
+.container-main-first {
+  background-color: var(--background-dark-color);
+  height: 600px;
+}
+.container-main-first-caption {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 3px;
+}
+.container-main-first-button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.container-main-second-list {
+  list-style: none;
+}
+.container-main-second-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+}
+.container-main-second-list p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--descriptions-color);
+  letter-spacing: 0.25px;
+}
+.container-main-third ul {
+  list-style: none;
+}
+.container-caption {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  vertical-align: top;
+}
+.container-team {
+  background-color: var(--background-light-color);
+  /* height: 648px; */
+}
+.container-team ul {
+  list-style: none;
+}
+.container-team-worker {
+  background-color: var(--white-color);
+  width: 270px;
+  height: 368px;
+}
+.container-team-worker figcaption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  vertical-align: top;
+}
+.container-team-worker span {
+  color: var(--descriptions-color);
+}
+
+/* footer styles */
+
+.footer-wrapper {
+  background-color: var(--background-dark-color);
+  height: 252px;
+}
+.logo-second-footer {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--white-color);
+}
+.address-info {
+  color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  vertical-align: top;
+  letter-spacing: 0.25px;
+}
+.address-link {
+  text-decoration: none;
+  color: #ffffff99;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  vertical-align: top;
+  letter-spacing: 0.25px;
+}
+.address-link:hover {
+  color: var(--accent-color);
+}
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio-page styles */
+
+.filtr-button {
+  background-color: var(--background-light-color);
+  color: var(--main-color);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: top;
+}
+.filtr-button:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.filtr-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.projects-list {
+  list-style: none;
+}
+.projects-list figcaption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  vertical-align: top;
+  letter-spacing: 0.75px;
+}
+
+.projects-list span {
+  font-size: 16px;
+  color: var(--descriptions-color);
+}
