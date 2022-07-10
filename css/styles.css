@@ -33,6 +33,7 @@ body {
   max-width: 1170px;
   min-height: 80px;
   margin: 0 auto;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-bar-navigation {
@@ -90,7 +91,6 @@ body {
   background-color: var(--background-dark-color);
   height: 600px;
   max-width: 100%;
-  margin-bottom: 94px;
 }
 .container-main-first-caption {
   color: var(--white-color);
@@ -102,6 +102,7 @@ body {
   letter-spacing: 3px;
   margin: 0;
   padding-top: 200px;
+  padding-bottom: 40px;
 }
 .container-main-first-button {
   width: 200px;
@@ -115,7 +116,6 @@ body {
   text-align: center;
   cursor: pointer;
   display: block;
-  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
@@ -125,9 +125,11 @@ body {
   list-style: none;
   display: flex;
   max-width: 1170px;
-  margin: 0 auto 94px;
+  margin-left: auto;
+  margin-right: auto;
   gap: 30px;
-  padding-left: 0;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .container-main-second-list h3 {
   font-weight: 700;
@@ -145,7 +147,8 @@ body {
 }
 .container-main-third {
   max-width: 1170px;
-  margin: 0 auto 94px;
+  margin: 0 auto;
+  padding-bottom: 94px;
 }
 .container-main-third ul {
   list-style: none;
@@ -249,9 +252,7 @@ body {
   padding-top: 94px;
   display: flex;
   justify-content: center;
-  border-top: 1px solid #ececec;
   padding-bottom: 16px;
-  margin-bottom: 34px;
 }
 .filtr-button {
   background-color: var(--background-light-color);
@@ -286,7 +287,10 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   max-width: 1170px;
-  margin: 0 auto 94px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 34px;
+  padding-bottom: 94px;
 }
 .projects-list figcaption {
   font-weight: 700;
