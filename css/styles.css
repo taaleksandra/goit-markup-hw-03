@@ -292,6 +292,9 @@ body {
   padding-top: 34px;
   padding-bottom: 94px;
 }
+.projects-list img {
+  display: block;
+}
 .projects-list figcaption {
   font-weight: 700;
   font-size: 18px;
@@ -302,7 +305,6 @@ body {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
-  margin-top: -5px;
 }
 
 .projects-list span {
