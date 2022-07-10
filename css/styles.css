@@ -20,24 +20,28 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
 }
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
 /* header styles */
 
 .site-bar-wrapper {
   background-color: var(--white-color);
   display: flex;
-  max-width: 1600px;
+  max-width: 1170px;
   min-height: 80px;
   margin: 0 auto;
 }
 
 .site-bar-navigation {
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .logo {
-  margin: 24px 5.8125% 25px 13.4375%;
+  margin: 24px 93px 25px 0;
 }
 .logo-first {
   color: var(--accent-color);
@@ -67,11 +71,11 @@ body {
   letter-spacing: 0.5px;
   margin-right: 46px;
 }
-.main-navigation-contact a[href="tel:+48111111111"] {
-  margin-right: 227px;
-}
 .main-navigation-contact a {
   color: var(--descriptions-color);
+}
+.main-navigation-contact a[href="tel:+48111111111"] {
+  margin-right: 0;
 }
 .main-navigation a:hover {
   color: var(--accent-color);
@@ -85,8 +89,8 @@ body {
 .container-main-first {
   background-color: var(--background-dark-color);
   height: 600px;
-  max-width: 1600px;
-  margin: 0 auto 94px auto;
+  max-width: 100%;
+  margin-bottom: 94px;
 }
 .container-main-first-caption {
   color: var(--white-color);
