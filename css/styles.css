@@ -239,14 +239,28 @@ body {
 
 /* portfolio-page styles */
 
+.filtr-buttons-portfolio {
+  max-width: 1600px;
+  margin: 0px auto 0;
+  padding-top: 94px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ececec;
+}
 .filtr-button {
   background-color: var(--background-light-color);
   color: var(--main-color);
   border: none;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  vertical-align: top;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.filtr-button-text {
+  display: block;
+  padding: 6px 22px;
 }
 .filtr-button:hover {
   background-color: var(--accent-color);
