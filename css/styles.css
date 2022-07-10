@@ -8,6 +8,12 @@
   --black-color: #000000;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-color);
@@ -17,6 +23,17 @@ body {
 
 .site-bar-wrapper {
   background-color: var(--white-color);
+  display: flex;
+  width: 100%;
+}
+
+.site-bar-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 24px 5.8125% 25px 13.4375%;
 }
 .logo-first {
   color: var(--accent-color);
@@ -26,14 +43,16 @@ body {
   font-weight: 700;
 }
 .logo-second {
+  color: var(--black-color);
   text-decoration: none;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
-  color: var(--black-color);
 }
 .main-navigation {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 .main-navigation a {
   text-decoration: none;
@@ -42,6 +61,13 @@ body {
   font-size: 14px;
   vertical-align: top;
   letter-spacing: 0.5px;
+  margin-right: 46px;
+}
+.main-navigation li {
+  margin-right: 2.875%;
+}
+.main-navigation-contact a[href="tel:+48111111111"] {
+margin-right: ;
 }
 .main-navigation-contact a {
   color: var(--descriptions-color);
