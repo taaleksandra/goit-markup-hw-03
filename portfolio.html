@@ -5,57 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- links to fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="container">
     <header class="site-bar-wrapper">
-      <a class="logo-first logo" href="index.html"
+      <a class="logo-first" href="index.html"
         >Web<span class="logo-second">Studio</span></a
       >
-      <div class="site-bar-navigation">
-        <nav class="main-navigation">
-          <a href="agency-link">Agencja</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="kontakt-link">Kontakt</a>
-        </nav>
-        <ul class="main-navigation main-navigation-contact">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <nav>
+        <ul class="main-navigation">
+          <li><a href="agency-link">Agencja</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="kontakt-link">Kontakt</a></li>
         </ul>
-      </div>
+      </nav>
+      <ul class="main-navigation main-navigation-contact">
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      </ul>
     </header>
 
     <main>
       <div class="filtr-buttons-portfolio">
-        <button type="button" class="filtr-button">
-          <span class="filtr-button-text">Wszystkie</span>
-        </button>
-        <button type="button" class="filtr-button">
-          <span class="filtr-button-text">Strony</span>
-        </button>
-        <button type="button" class="filtr-button">
-          <span class="filtr-button-text">Aplikacje</span>
-        </button>
-        <button type="button" class="filtr-button">
-          <span class="filtr-button-text">Dizajn</span>
-        </button>
-        <button type="button" class="filtr-button">
-          <span class="filtr-button-text">Marketing</span>
-        </button>
+        <button type="button" class="filtr-button">Wszystkie</button>
+        <button type="button" class="filtr-button">Strony</button>
+        <button type="button" class="filtr-button">Aplikacje</button>
+        <button type="button" class="filtr-button">Dizajn</button>
+        <button type="button" class="filtr-button">Marketing</button>
       </div>
       <ul class="projects-list">
         <li>
@@ -67,7 +51,8 @@
               height="294"
             />
             <figcaption>
-              Technocrack<br /><span>Strona internetowa</span>
+              <h4 class="project-title">Technocrack</h4>
+              <p class="project-describe">Strona internetowa</p>
             </figcaption>
           </figure>
         </li>
@@ -81,8 +66,8 @@
               height="294"
             />
             <figcaption>
-              Grafika New Orlean vs Golden Star<br />
-              <span>Dizajn</span>
+              <h4 class="project-title">Grafika New Orlean vs Golden Star</h4>
+              <p class="project-describe">Dizajn</p>
             </figcaption>
           </figure>
         </li>
@@ -96,8 +81,8 @@
               height="294"
             />
             <figcaption>
-              Restauracja Seafood<br />
-              <span>Aplikacja</span>
+              <h4 class="project-title">Restauracja Seafood</h4>
+              <p class="project-describe">Aplikacja</p>
             </figcaption>
           </figure>
         </li>
@@ -111,8 +96,8 @@
               height="294"
             />
             <figcaption>
-              Projekt Prime<br />
-              <span>Marketing</span>
+              <h4 class="project-title">Projekt Prime</h4>
+              <p class="project-describe">Marketing</p>
             </figcaption>
           </figure>
         </li>
@@ -126,8 +111,8 @@
               height="294"
             />
             <figcaption>
-              Projekt Boxes<br />
-              <span>Aplikacja</span>
+              <h4 class="project-title">Projekt Boxes</h4>
+              <p class="project-describe">Aplikacja</p>
             </figcaption>
           </figure>
         </li>
@@ -141,8 +126,8 @@
               height="294"
             />
             <figcaption>
-              Inspiration has no Borders<br />
-              <span>Strona internetowa</span>
+              <h4 class="project-title">Inspiration has no Borders</h4>
+              <p class="project-describe">Strona internetowa</p>
             </figcaption>
           </figure>
         </li>
@@ -156,8 +141,8 @@
               height="294"
             />
             <figcaption>
-              Magazyn Limited Edition<br />
-              <span>Dizajn</span>
+              <h4 class="project-title">Magazyn Limited Edition</h4>
+              <p class="project-describe">Dizajn</p>
             </figcaption>
           </figure>
         </li>
@@ -171,8 +156,8 @@
               height="294"
             />
             <figcaption>
-              Projekt LAB<br />
-              <span>Marketing</span>
+              <h4 class="project-title">Projekt LAB</h4>
+              <p class="project-describe">Marketing</p>
             </figcaption>
           </figure>
         </li>
@@ -186,8 +171,8 @@
               height="294"
             />
             <figcaption>
-              Growing Business<br />
-              <span>Aplikacja</span>
+              <h4 class="project-title">Growing Business</h4>
+              <p class="project-describe">Aplikacja</p>
             </figcaption>
           </figure>
         </li>
@@ -207,6 +192,5 @@
         <a href="tel:+48111111111" class="address-link">+48 111 111 111</a>
       </address>
     </footer>
-    </div>
   </body>
 </html>

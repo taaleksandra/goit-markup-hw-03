@@ -8,41 +8,15 @@
   --black-color: #000000;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-color);
-}
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
 }
 
 /* header styles */
 
 .site-bar-wrapper {
   background-color: var(--white-color);
-  display: flex;
-  max-width: 1170px;
-  min-height: 80px;
-  margin: 0 auto;
-  border-bottom: 1px solid #ececec;
-}
-
-.site-bar-navigation {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.logo {
-  margin: 24px 93px 25px 0;
 }
 .logo-first {
   color: var(--accent-color);
@@ -52,16 +26,14 @@ body {
   font-weight: 700;
 }
 .logo-second {
-  color: var(--black-color);
   text-decoration: none;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
+  color: var(--black-color);
 }
 .main-navigation {
   list-style: none;
-  display: flex;
-  align-items: center;
 }
 .main-navigation a {
   text-decoration: none;
@@ -70,13 +42,9 @@ body {
   font-size: 14px;
   vertical-align: top;
   letter-spacing: 0.5px;
-  margin-right: 46px;
 }
 .main-navigation-contact a {
   color: var(--descriptions-color);
-}
-.main-navigation-contact a[href="tel:+48111111111"] {
-  margin-right: 0;
 }
 .main-navigation a:hover {
   color: var(--accent-color);
@@ -89,8 +57,6 @@ body {
 
 .container-main-first {
   background-color: var(--background-dark-color);
-  height: 600px;
-  max-width: 100%;
 }
 .container-main-first-caption {
   color: var(--white-color);
@@ -100,13 +66,10 @@ body {
   text-align: center;
   vertical-align: top;
   letter-spacing: 3px;
-  margin: 0;
-  padding-top: 200px;
-  padding-bottom: 40px;
 }
 .container-main-first-button {
-  width: 200px;
-  height: 50px;
+  /* width: 200px;
+  height: 50px; */
   background-color: var(--accent-color);
   color: var(--white-color);
   border: none;
@@ -114,22 +77,11 @@ body {
   font-size: 16px;
   line-height: 1.875;
   text-align: center;
+  vertical-align: middle;
   cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 .container-main-second-list {
   list-style: none;
-  display: flex;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 30px;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 .container-main-second-list h3 {
   font-weight: 700;
@@ -137,7 +89,6 @@ body {
   line-height: 1.15;
   text-transform: uppercase;
   letter-spacing: 0.25px;
-  margin-top: 0;
 }
 .container-main-second-list p {
   font-size: 14px;
@@ -145,71 +96,46 @@ body {
   color: var(--descriptions-color);
   letter-spacing: 0.25px;
 }
-.container-main-third {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding-bottom: 94px;
-}
 .container-main-third ul {
   list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 30px;
 }
 .container-caption {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   vertical-align: top;
-  margin: 0 0 50px;
 }
 .container-team {
   background-color: var(--background-light-color);
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 94px 0 94px;
 }
 .container-team ul {
   list-style: none;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  gap: 30px;
 }
 .container-team-worker {
   background-color: var(--white-color);
   width: 270px;
   height: 368px;
-  border-radius: 0 0 4px 4px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14),
-    0 1px 3px rgba(0, 0, 0, 0.12);
 }
-.container-team-worker figcaption {
+.container-team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.1875;
   text-align: center;
-  vertical-align: top;
+  letter-spacing: 3%;
 }
-.container-team-worker span {
+.container-team-describe {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
   color: var(--descriptions-color);
-  font-weight: 400;
+  letter-spacing: 3%;
 }
 
 /* footer styles */
 
 .footer-wrapper {
   background-color: var(--background-dark-color);
-  max-width: 1600px;
-  min-height: 252px;
-  margin: 0 auto;
-  padding-top: 60px;
-  padding-left: 215px;
+  /* height: 252px; */
 }
 .logo-second-footer {
   text-decoration: none;
@@ -223,17 +149,16 @@ body {
   color: var(--white-color);
   font-style: normal;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.7;
   vertical-align: top;
   letter-spacing: 0.25px;
-  padding-top: 20px;
 }
 .address-link {
   text-decoration: none;
   color: #ffffff99;
   font-style: normal;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.7;
   vertical-align: top;
   letter-spacing: 0.25px;
 }
@@ -246,14 +171,6 @@ body {
 
 /* portfolio-page styles */
 
-.filtr-buttons-portfolio {
-  max-width: 1600px;
-  margin: 0px auto 0;
-  padding-top: 94px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 16px;
-}
 .filtr-button {
   background-color: var(--background-light-color);
   color: var(--main-color);
@@ -262,19 +179,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  border-radius: 4px;
-  margin-right: 8px;
-}
-.filtr-button-text {
-  display: block;
-  padding: 6px 22px;
+  /* vertical-align: top; */
 }
 .filtr-button:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
   cursor: pointer;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08),
-    0 3px 1px rgba(0, 0, 0, 0.1);
 }
 .filtr-button:focus {
   background-color: var(--accent-color);
@@ -283,32 +193,18 @@ body {
 }
 .projects-list {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  max-width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 34px;
-  padding-bottom: 94px;
 }
-.projects-list img {
-  display: block;
-}
-.projects-list figcaption {
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   vertical-align: top;
-  letter-spacing: 0.75px;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  padding: 20px 24px;
+  letter-spacing: 1.5px;
 }
 
-.projects-list span {
+.project-describe {
   font-size: 16px;
   color: var(--descriptions-color);
-  font-weight: 400;
+  line-height: 1.875;
+  letter-spacing: 0.75px;
 }
