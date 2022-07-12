@@ -28,13 +28,28 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 /* header styles */
 
 .site-bar-wrapper {
   background-color: var(--white-color);
+  border-bottom: 1px solid #ececec;
 }
+.site-bar {
+  display: flex;
+  align-items: center;
+}
+.site-bar > a {
+  margin: 24px 93px 25px 0;
+}
+
 .logo-first {
   color: var(--accent-color);
   text-decoration: none;
@@ -43,14 +58,11 @@ body {
   font-weight: 700;
 }
 .logo-second {
-  text-decoration: none;
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
   color: var(--black-color);
 }
 .main-navigation {
   list-style: none;
+  display: flex;
 }
 .main-navigation a {
   text-decoration: none;
@@ -59,9 +71,20 @@ body {
   font-size: 14px;
   vertical-align: top;
   letter-spacing: 0.5px;
+  margin-right: 46px;
+}
+.main-navigation a[href="kontakt-link"] {
+  margin-right: 0;
+}
+.main-navigation-contact {
+  margin-left: auto;
 }
 .main-navigation-contact a {
   color: var(--descriptions-color);
+  margin-right: 50px;
+}
+.main-navigation-contact a[href="tel:+48111111111"] {
+  margin-right: 0;
 }
 .main-navigation a:hover {
   color: var(--accent-color);
@@ -113,6 +136,9 @@ body {
   color: var(--descriptions-color);
   letter-spacing: 0.25px;
 }
+.container-main-third {
+  padding-top: 0px;
+}
 .container-main-third ul {
   list-style: none;
 }
@@ -130,20 +156,16 @@ body {
 }
 .container-team-worker {
   background-color: var(--white-color);
-  width: 270px;
-  height: 368px;
 }
 .container-team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
-  text-align: center;
   letter-spacing: 3%;
 }
 .container-team-describe {
   font-size: 16px;
   line-height: 1.1875;
-  text-align: center;
   color: var(--descriptions-color);
   letter-spacing: 3%;
 }
@@ -152,14 +174,10 @@ body {
 
 .footer-wrapper {
   background-color: var(--background-dark-color);
-  /* height: 252px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-second-footer {
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
   color: var(--white-color);
 }
 .address-info {
