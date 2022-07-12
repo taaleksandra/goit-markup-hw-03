@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+
+    <!-- links to stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- links to fonts -->
@@ -17,31 +23,33 @@
   </head>
   <body>
     <header class="site-bar-wrapper">
-      <a class="logo-first" href="index.html"
-        >Web<span class="logo-second">Studio</span></a
-      >
-      <nav>
-        <ul class="main-navigation">
-          <li><a href="agency-link">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="kontakt-link">Kontakt</a></li>
+      <div class="container">
+        <a class="logo-first" href="index.html"
+          >Web<span class="logo-second">Studio</span></a
+        >
+        <nav>
+          <ul class="main-navigation">
+            <li><a href="agency-link">Agencja</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="kontakt-link">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="main-navigation main-navigation-contact">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul class="main-navigation main-navigation-contact">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
-      <div class="filtr-buttons-portfolio">
+      <div class="filtr-buttons-portfolio container">
         <button type="button" class="filtr-button">Wszystkie</button>
         <button type="button" class="filtr-button">Strony</button>
         <button type="button" class="filtr-button">Aplikacje</button>
         <button type="button" class="filtr-button">Dizajn</button>
         <button type="button" class="filtr-button">Marketing</button>
       </div>
-      <ul class="projects-list">
+      <ul class="projects-list container">
         <li>
           <figure>
             <img
@@ -180,17 +188,19 @@
     </main>
 
     <footer class="footer-wrapper">
-      <a class="logo-first" href="index.html"
-        >Web<span class="logo-second-footer">Studio</span></a
-      >
-      <address class="address-info">
-        m. Warszawa, Aleje Jerozolimskie 21 <br />
-        <a href="mailto:info@example.com" class="address-link"
-          >info@example.com</a
+      <div class="container">
+        <a class="logo-first" href="index.html"
+          >Web<span class="logo-second-footer">Studio</span></a
         >
-        <br />
-        <a href="tel:+48111111111" class="address-link">+48 111 111 111</a>
-      </address>
+        <address class="address-info">
+          m. Warszawa, Aleje Jerozolimskie 21 <br />
+          <a href="mailto:info@example.com" class="address-link"
+            >info@example.com</a
+          >
+          <br />
+          <a href="tel:+48111111111" class="address-link">+48 111 111 111</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
